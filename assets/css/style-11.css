@@ -1,17 +1,13 @@
-.calender ul{
-    display: grid;
-    grid-template-columns:repeat(7,1fr) ;
-    gap: 1em;
-}
-.calender li{
-    list-style: none;
-    font-size: 4em;
-    background-color: royalblue;
-    height: 150px;
+.container {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    min-width: 1200px;
 }
-.calender .other-month{
-    background-color: steelblue;
+.food{
+    border: 3px solid lightgray;
+    border-radius: 30px;
+    margin: 10px;
+    width: 350px;
+}
+.food img{
+    width: 100%;
 }
