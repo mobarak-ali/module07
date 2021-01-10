@@ -1,12 +1,14 @@
 .container {
     display: flex;
-    min-width: 1200px;
+    max-width: 1200px;
+    /* margin: 0 auto; */
 }
 .food{
     border: 3px solid lightgray;
     border-radius: 30px;
     margin: 10px;
     width: 350px;
+    overflow: hidden;
 }
 .food img{
     width: 100%;
