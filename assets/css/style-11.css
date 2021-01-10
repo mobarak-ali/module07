@@ -1,6 +1,7 @@
 .container {
     display: flex;
     max-width: 1200px;
+    flex-wrap: wrap;
     margin: 0 auto;
 }
 .food{
@@ -12,4 +13,17 @@
 }
 .food img{
     width: 100%;
+}
+@media(max-width:720px){
+    .container{
+        
+    }
+    .container .food{
+        background-color: lightgreen;
+    }
+}
+@media(min-width:1200px){
+    .container .food{
+        background-color: skyblue;
+    }
 }
